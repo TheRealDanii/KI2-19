@@ -31,6 +31,7 @@ const setupProject = (name) => {
 }
 
 setupProject('zoo');
+setupProject('sealife');
 
 const options = {
   cert: fs.readFileSync(`/etc/letsencrypt/live/${domain}/fullchain.pem`),
