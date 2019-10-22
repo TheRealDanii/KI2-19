@@ -1,0 +1,9 @@
+{
+	"projects": [
+		{
+			"name": "zoo",
+			"path": "zoo",
+			"author": "Michi"
+    }
+	]
+}

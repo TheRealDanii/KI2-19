@@ -5,7 +5,8 @@ const helmet = require("helmet");
 const compression = require("compression");
 const dotenv = require("dotenv");
 const fs = require('fs');
-const path = require('path');
+const projects = require('./projects.json');
+
 dotenv.config();
 
 const domain = process.env.DOMAIN;
@@ -26,12 +27,13 @@ app.use(helmet());
 app.use(compression());
 
 const setupProject = (name) => {
-	app.use(`/${name}`, express.static(name));
-	console.log(`[+] Pfad /${name} erstellt`);
+  app.use(`/${name}`, express.static(name));
+  console.log(`[+] Pfad /${name} erstellt`);
 }
 
-setupProject('zoo');
-setupProject('sealife');
+projects.projects.forEach(project => {
+  setupProject(project.path)
+});
 
 const options = {
   cert: fs.readFileSync(`/etc/letsencrypt/live/${domain}/fullchain.pem`),
@@ -40,9 +42,9 @@ const options = {
 
 const httpServer = http.createServer(httpApp);
 const httpsServer = https.createServer(options, app);
-httpServer.listen(80, function() {
+httpServer.listen(80, function () {
   console.log(`HTTP Server is up and running ${domain}:80`);
 });
-httpsServer.listen(443, function() {
+httpsServer.listen(443, function () {
   console.log(`HTTPS Server is up and running ${domain}:443`);
 });
