@@ -9,6 +9,17 @@
 		"name": "sealife",
 		"path": "sealife",
 		"author": "Konrad"
-	}
+	},
+		{
+			"name": "mvm-bild-oben",
+			"path": "mvm-bild-oben",
+			"author": "Michi"
+		},
+		{
+			"name": "mvm-bild-umschlossen",
+			"path": "mvm-bild-umschlossen",
+			"author": "Michi"
+    }
+
 	]
 }
