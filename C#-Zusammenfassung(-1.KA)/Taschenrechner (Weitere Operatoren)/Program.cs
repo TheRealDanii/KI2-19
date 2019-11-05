@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Author: Konrad
+using System;
 
 namespace Taschenrechner__Erweiter__Auswhälbare_Anzahl_der_Zahlen__2_5_
 {
