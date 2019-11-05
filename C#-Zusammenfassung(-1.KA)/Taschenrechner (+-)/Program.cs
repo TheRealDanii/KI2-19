@@ -5,6 +5,7 @@ namespace __
     class Program
     {
         static void Main(string[] args)
+        {
             Console.WriteLine("Möchten sie + oder - rechnen? (+/-)");
             string antwort = Console.ReadLine();
             //Wenn die Antwort "+" ist, wird folgendes ausgeführt:
