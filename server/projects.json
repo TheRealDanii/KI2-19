@@ -4,6 +4,16 @@
 			"name": "zoo",
 			"path": "zoo",
 			"author": "Michi"
+		},
+		{
+			"name": "mvm-bild-oben",
+			"path": "mvm-bild-oben",
+			"author": "Michi"
+		},
+		{
+			"name": "mvm-bild-umschlossen",
+			"path": "mvm-bild-umschlossen",
+			"author": "Michi"
     }
 	]
 }
