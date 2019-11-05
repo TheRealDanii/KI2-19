@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Author: Konrad
+using System;
 
 namespace TestPrüfung_Arrays_
 {
