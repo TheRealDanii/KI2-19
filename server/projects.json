@@ -4,7 +4,12 @@
 			"name": "zoo",
 			"path": "zoo",
 			"author": "Michi"
-		},
+	},
+	{
+		"name": "sealife",
+		"path": "sealife",
+		"author": "Konrad"
+	},
 		{
 			"name": "mvm-bild-oben",
 			"path": "mvm-bild-oben",
@@ -15,5 +20,6 @@
 			"path": "mvm-bild-umschlossen",
 			"author": "Michi"
     }
+
 	]
 }
