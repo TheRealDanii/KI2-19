@@ -1,0 +1,40 @@
+h1{
+	font-family: 'Segoe Script';
+	margin-left: 80px;
+}
+.logo{
+	margin-left: 100px;
+}
+.button{
+	margin-left: 600px;
+	border: 1px solid blue;
+	background-color: grey;
+	padding: 3px;
+	text-decoration: none;
+}
+.button:hover{
+	background-color: blue;
+	color: white;
+}
+.button:visited{
+	background-color: green;
+}
+
+.text{
+	width: 50%;
+}
+.text h2{
+	font-family: 'Segoe Script';
+}
+
+.leftElem{
+	float: left;
+	margin-left: 25px;
+}
+.rightElem{
+	margin-left: 75px;
+	float: right;
+}
+.container{
+	width: 800px;
+}
