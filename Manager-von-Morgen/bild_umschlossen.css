@@ -1,0 +1,38 @@
+html, body {
+	margin-left: 25px;
+}
+#header{
+	width: 820px;
+	margin-bottom: 25px;
+	text-align: justify;
+}
+
+#linke_spalte{
+	width: 400px;
+	float: left;
+	text-align: justify;
+	border-right: 1px solid black;
+	padding-right: 20px;
+}
+#linke_spalte #ersterParagraph {
+	margin-top: 0;
+}
+
+#rechte_spalte{
+	margin-left: 420px;
+	width: 400px;
+	text-align: justify;
+	padding-left: 20px;
+}
+#rechte_spalte img {
+	width: 400px;
+}
+#rechte_spalte #image_desc {
+	font-size: small;
+}
+
+#footer {
+	clear: both;
+	width: 820px;
+	text-align: justify;
+}

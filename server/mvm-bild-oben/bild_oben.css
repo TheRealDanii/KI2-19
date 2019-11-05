@@ -1,0 +1,26 @@
+html, body {
+	margin-left: 25px;
+}
+#header{
+	width: 100%;
+	margin-bottom: 25px;
+}
+#header #image_desc {
+	font-size: small;
+}
+
+#linke_spalte{
+	width: 400px;
+	float: left;
+	text-align: justify;
+}
+
+#rechte_spalte{
+	margin-left: 420px;
+	width: 400px;
+	text-align: justify;
+}
+
+#footer {
+	clear: both;
+}
