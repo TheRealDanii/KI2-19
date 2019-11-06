@@ -11,7 +11,6 @@ html, body {
 	width: 400px;
 	float: left;
 	text-align: justify;
-	border-right: 1px solid black;
 	padding-right: 20px;
 }
 #linke_spalte #ersterParagraph {
@@ -23,6 +22,7 @@ html, body {
 	width: 400px;
 	text-align: justify;
 	padding-left: 20px;
+	border-left: 1px solid black;
 }
 #rechte_spalte img {
 	width: 400px;
