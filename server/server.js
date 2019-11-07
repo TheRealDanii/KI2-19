@@ -30,6 +30,7 @@ const setupProject = (name) => {
   app.use(`/${name}`, express.static(name));
   console.log(`[+] Pfad /${name} erstellt`);
 }
+app.use(`/`, express.static("index"));
 
 projects.projects.forEach(project => {
   setupProject(project.path)
