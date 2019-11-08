@@ -27,7 +27,7 @@ namespace Musterlösung2_KA1
             {
                 ampel++;
             }
-            if(ms1>139 | md1 > 89)
+            if(ms1 > 139 | md1 > 89)
             {
                 ampel++;
             }
