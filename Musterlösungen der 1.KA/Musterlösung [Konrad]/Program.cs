@@ -20,12 +20,6 @@ namespace Klausur1
 			 * berechnung des mittelwerts aus den 2 diastolischen
 			 * Vergleichen der Mittelwerte ob optimalen (ausgeben), wenn nicht normalen (ausgeben), wenn nicht: Bluthochdruck (ausgeben)
 			 * Ausgabe
-			 * -----------------
-			 * Bonus:
-			 * Weitere Besucher?
-			 * Ja -> nach oben
-			 * Nein -> Schönen Tag noch
-			 * Nichts -> Schließen
 			*/
 			//Abfragen der 2 Werte der ersten Messung:
 			Console.WriteLine("Guten Tag.");
