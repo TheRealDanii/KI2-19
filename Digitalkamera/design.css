@@ -1,18 +1,15 @@
-body{
-
+#neupreis {
+  font-size: large;
+  font-weight: bold;
+}
+#bild1 {
+  float: left;
 }
 
-#neupreis{
-    font-size: large;
-    font-weight: bold;
+#lieferumfang {
+  clear: both;
 }
-#bild1{
-    float: left;
-}
-
-#lieferumfang{
-    clear: both;
-}
-#liste1{
-    margin-left: 450px;
+#liste1 {
+  list-style-image: url(aufzaehlung2.gif);
+  margin-left: 450px;
 }
