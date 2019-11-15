@@ -13,7 +13,7 @@ echo 'DOMAIN=ki219.devstall.de'
 rm $PWD/start.sh
 {
 echo '#!/bin/bash'
-echo 'cd ${PWD}'
+echo "cd ${PWD}"
 echo 'npm start'
 }>$PWD/start.sh
 chmod +x $PWD/start.sh
@@ -27,7 +27,7 @@ echo 'Type=simple'
 echo 'Restart=always'
 echo 'RestartSec=1'
 echo 'User=root'
-echo 'ExecStart=${PWD}/start.sh'
+echo "ExecStart=${PWD}/start.sh"
 echo '[Install]'
 echo 'WantedBy=multi-user.target '
 }>/etc/systemd/system/ki219.service
