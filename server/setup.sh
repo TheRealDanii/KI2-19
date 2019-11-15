@@ -8,7 +8,7 @@ fi
 rm $PWD/.env
 {
 echo 'DOMAIN=ki219.devstall.de'
-}>$PWD/env.sh
+}>$PWD/.env
 
 rm $PWD/start.sh
 {
