@@ -5,6 +5,11 @@ rm /etc/systemd/system/ki219.service
 systemctl daemon-reload
 fi
 
+rm $PWD/.env
+{
+echo 'DOMAIN=ki219.devstall.de'
+}>$PWD/env.sh
+
 rm $PWD/start.sh
 {
 echo '#!/bin/bash'
