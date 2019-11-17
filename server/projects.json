@@ -4,12 +4,12 @@
 			"name": "zoo",
 			"path": "zoo",
 			"author": "Michi"
-	},
-	{
-		"name": "sealife",
-		"path": "sealife",
-		"author": "Konrad"
-	},
+		},
+		{
+			"name": "sealife",
+			"path": "sealife",
+			"author": "Konrad"
+		},
 		{
 			"name": "mvm-bild-oben",
 			"path": "mvm-bild-oben",
@@ -19,7 +19,21 @@
 			"name": "mvm-bild-umschlossen",
 			"path": "mvm-bild-umschlossen",
 			"author": "Michi"
-    }
-
+		},
+		{
+			"name": "ki-ausbildung",
+			"path": "ki-ausbildung",
+			"author": "Michi"
+		},
+		{
+			"name": "fahrradshop",
+			"path": "fahrradshop",
+			"author": "Michi"
+		},
+		{
+			"name": "digitalkamera",
+			"path": "digitalkamera",
+			"author": "Konrad"
+		}
 	]
 }
