@@ -1,0 +1,37 @@
+html, body {
+	margin-left: 25px;
+}
+#header{
+	width: 820px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+#wrapper{
+	width: 830px;
+}
+#linke_spalte{
+	width: 400px;
+	float: left;
+	padding-right: 20px;
+}
+#linke_spalte #ersterParagraph {
+	margin-top: 0;
+}
+
+#rechte_spalte{
+	margin-left: 420px;
+	width: 400px;
+	padding-left: 20px;
+	border-left: 1px solid black;
+}
+#rechte_spalte img {
+	width: 400px;
+}
+#rechte_spalte #image_desc {
+	font-size: small;
+}
+
+#footer {
+	clear: both;
+	width: 820px;
+}
