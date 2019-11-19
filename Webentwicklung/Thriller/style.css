@@ -1,0 +1,38 @@
+#container{
+	margin: 0 auto;
+	width: 540px;
+}
+#left{
+	float: left;
+	width: 170px;
+}
+
+#right {
+	margin-left: 190px;
+	width: 350px;
+	font-size: 16px;
+}
+
+#suggestion{
+	margin-top: 40px;
+	clear: both;
+}
+
+.item{
+	font-size: 14px;
+	width: 80px;
+}
+.item img{
+	width: 80px;
+}
+.item.first{
+	float: left;
+}
+.item.second{
+	float: left;
+	margin-left: 20px;
+}
+.item.third{
+	float: left;
+	margin-left: 20px;
+}
