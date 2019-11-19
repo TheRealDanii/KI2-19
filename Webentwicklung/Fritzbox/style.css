@@ -1,0 +1,34 @@
+#leftImage{
+	float: left;
+	margin-bottom: 50px;
+}
+
+#list{
+	margin-left: 420px;
+	margin-top: 100px;
+	width: 400px;
+}
+
+#footer{
+	clear: both;
+}
+
+#footer #newPrice{
+	font-size: 24px;
+}
+#footer #oldPrice{
+	font-size: 20px;
+	text-decoration: line-through;
+}
+
+#suggestions {
+	margin-top: 50px;
+}
+
+#leftItem{
+	float: left;
+	width: 160px;
+}
+#rightItem{
+	margin-left: 180px;
+}
