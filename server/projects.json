@@ -34,6 +34,21 @@
 			"name": "digitalkamera",
 			"path": "digitalkamera",
 			"author": "Konrad"
+		},
+		{
+			"name": "thriller",
+			"path": "thriller",
+			"author": "Michi"
+		},
+		{
+			"name": "buhmann-homepage",
+			"path": "buhmann-homepage",
+			"author": "Michi"
+		},
+		{
+			"name": "fritzbox",
+			"path": "fritzbox",
+			"author": "Michi"
 		}
 	]
 }
